@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.xiaxin.compressedbarrels.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"CompressedBarrelsModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

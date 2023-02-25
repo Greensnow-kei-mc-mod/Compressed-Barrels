@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "compressed_barrels",
+  "version": "1.0.0",
+  "name": "Compressed Barrels",
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "MIT License",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.xiaxin.compressedbarrels.CompressedBarrelsMod"
+    ],
+    "client": [
+      "net.xiaxin.compressedbarrels.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "compressed_barrels.mixins.json"
+  ]
+}
